@@ -1,0 +1,107 @@
+
+body {
+	background-color: #f6f8f9;
+	margin: 0;
+	padding: 0;
+
+	
+}
+
+.container {
+	margin-top: 50px;
+	padding: 30px 60px;
+	background-color: #fff;
+}
+.header__myphoto {
+	border-radius: 50%;
+}
+.header__title {
+	color: #047ad2;
+}
+.header__aboutme {
+	color: #7b7b7b;
+}
+.header__ican {
+	color: #333;
+}
+.header__experience {
+	text-align: center;
+	padding: 10px;
+	width: 200px;
+	display: block;
+	color: #333;
+	background-color: #ffea00;
+	border-radius: 40px 8px 40px 8px;
+}
+.header__experience--text {
+	color: #7b7b7b;
+	padding-left: 50px;
+}
+.header__experience--skills {
+	width: 240px;
+}
+.experience__item {
+	font-size: 18px;
+	padding: 5px;	
+    color: #7fb7dd; 
+}
+.experience__item span{
+    color: #333;
+}
+
+
+
+
+/*portfolio*/
+
+
+
+.portfolio {
+	color: #333;
+}
+.portfolio__link {
+	text-align: center;
+	padding: 5px;
+	width: 150px;
+	display: block;
+	color: #333;
+	background-color: #ffea00;
+	border-radius: 40px 8px 40px 8px;
+	text-decoration: none;
+	margin-bottom: 40px;
+	font-weight: 700;
+}
+.portfolio__link:hover {
+	font-size: 18px;
+}
+.portfolio__img{
+	width: 100%;
+	max-height: 250px;
+	border: 1px solid #7b7b7b;
+}
+
+
+
+/*skroll*/
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #ffea00; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #faff84; 
+}
